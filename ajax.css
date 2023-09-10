@@ -1,0 +1,6 @@
+#sidemenu, #content{
+    float: left;
+}
+#content {
+    padding:16px 40px;
+}

@@ -1,0 +1,26 @@
+.red {color:red}
+.yellow {color:yellow}
+body {background-color: skyblue;}
+.title {background-color: yellow;}
+.content {
+    background-color: white;
+    text-align:center;
+}
+.container {
+    width:300px;
+    margin:auto;
+}
+.input_div {
+    display:flex;
+}
+#input_box {
+    flex-grow:1;
+    height:30px;
+}
+li {
+    list-style:none;
+    margin: 20px 0px;
+}
+.checked {
+    text-decoration:line-through;
+}

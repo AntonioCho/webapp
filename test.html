@@ -1,0 +1,21 @@
+<p id="text" class="content"></p>
+<p id="count" class="content"></p>
+<button id="button">Click</button>
+<script>
+    var el = document.getElementById("text")
+    var tick = function() {
+        var now = new Date()
+        el.innerText = now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds()
+    }
+    setInterval(tick, 1000)
+</script>
+
+<script>
+    var ele = document.getElementById("count")
+    var but = document.getElementById("button")
+    var count = 0
+    button.addEventListener('click', function(){
+        count++
+        ele.innerText = count + ' times clicked!!'
+    })
+</script>
